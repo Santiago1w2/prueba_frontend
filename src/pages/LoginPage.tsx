@@ -75,7 +75,6 @@ export default function LoginPage() {
                 type="text"
                 value={teamCode}
                 onChange={(e) => setTeamCode(e.target.value)}
-                placeholder="TEAM-001"
                 required
                 className="w-full bg-surface border border-border rounded px-3 py-2 text-text-primary font-mono text-sm focus:outline-none focus:border-accent transition-colors"
               />
@@ -89,7 +88,6 @@ export default function LoginPage() {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="operator@tuckersoft.com"
                 required
                 className="w-full bg-surface border border-border rounded px-3 py-2 text-text-primary font-mono text-sm focus:outline-none focus:border-accent transition-colors"
               />
@@ -103,7 +101,6 @@ export default function LoginPage() {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="••••••••"
                 required
                 className="w-full bg-surface border border-border rounded px-3 py-2 text-text-primary font-mono text-sm focus:outline-none focus:border-accent transition-colors"
               />
