@@ -48,14 +48,12 @@ export default function LoginPage() {
       <div className="relative w-full max-w-md">
         {/* Header */}
         <div className="text-center mb-8">
-          <p className="text-accent font-mono text-xs tracking-[0.3em] mb-2 uppercase">
-            TUCKERSOFT / SISTEMA OPERATIVO
-          </p>
+         
           <h1 className="text-text-primary font-mono text-3xl font-bold">
             TropelCare
           </h1>
           <p className="text-text-secondary font-mono text-sm mt-1">
-            Control Room — Pizza Protocol
+            Por favor, Inicie Sesión
           </p>
         </div>
 
@@ -127,9 +125,7 @@ export default function LoginPage() {
           </form>
         </div>
 
-        <p className="text-center text-text-dim font-mono text-xs mt-4">
-          v1.0.0 — Sector Operativo Activo
-        </p>
+       
       </div>
     </div>
   )

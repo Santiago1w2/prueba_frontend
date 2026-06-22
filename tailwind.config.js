@@ -21,9 +21,10 @@ export default {
         },
       },
       fontFamily: {
-        mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace'],
-        sans: ['"Inter"', 'system-ui', 'sans-serif'],
-      },
+  // Ahora cuando uses 'font-mono' en tu HTML, se verá en Comic Sans
+  mono: ['"Comic Sans MS"', '"Comic Sans"', 'monospace'], 
+  sans: ['"Comic Sans MS"', '"Comic Sans"', 'sans-serif'],
+},
       animation: {
         'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
         'scan': 'scan 2s linear infinite',
