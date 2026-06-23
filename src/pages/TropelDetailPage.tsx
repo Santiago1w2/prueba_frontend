@@ -122,3 +122,16 @@ export default function TropelDetailPage() {
     </div>
   )
 }
+
+
+/*
+cd backend
+cp .env.example .env
+docker compose up -d postgres
+npm install
+npm run db:migrate
+npm run db:seed
+npm run dev
+
+
+*/
